@@ -19,7 +19,7 @@ def home(request):  # Renderiza lo que se encuentre en la funcion
     return render(request, "home.html")
 
 # registrar un nuevo user
-@login_required
+
 def signup(request):
 
     if request.method == "GET":
